@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Gmail" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="3eb839d0-b378-4e95-a601-b46cc5671e10" weightsEnabled="false">
+    <weighted-embedded-action uid="28c2939e-018f-4f43-82a8-e9c2f3eee07a"/>
+</basic-logical-action-container>

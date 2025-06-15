@@ -1,0 +1,86 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    hostname="localhost:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="7bafc441-4ff4-4c5b-827b-88e2294a920b" version="2025.1.1;build=20250417-35">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter-Native WiFi Filter Driver-0000"
+        enabled="false" isLoopBack="false" name="wireless_2">
+        <!--****** LG ADDRESSES ******-->
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter-Virtual WiFi Filter Driver-0000"
+        enabled="false" isLoopBack="false" name="wireless_1">
+        <!--****** LG ADDRESSES ******-->
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter-Realtek NDIS LightWeight Filter (NDIS 6.40)-0000"
+        enabled="false" isLoopBack="false" name="wireless_4">
+        <!--****** LG ADDRESSES ******-->
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter-VirtualBox NDIS Light-Weight Filter-0000"
+        enabled="false" isLoopBack="false" name="wireless_3">
+        <!--****** LG ADDRESSES ******-->
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="ethernet_32770">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:95ac:293d:7678:77b4%ethernet_32770">
+            <ip value="fe80:0:0:0:95ac:293d:7678:77b4%ethernet_32770"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000"
+        enabled="false" isLoopBack="false" name="wireless_6">
+        <!--****** LG ADDRESSES ******-->
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter-QoS Packet Scheduler-0000"
+        enabled="false" isLoopBack="false" name="wireless_5">
+        <!--****** LG ADDRESSES ******-->
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter"
+        enabled="false" isLoopBack="false" name="wireless_32768">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="laptop-skt9l9dk.lan">
+            <ip value="192.168.31.67"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2409:40f4:12c:7590:24ae:ee61:4dfd:312f">
+            <ip value="2409:40f4:12c:7590:24ae:ee61:4dfd:312f"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2409:40f4:12c:7590:4484:3bfa:5a3b:f698">
+            <ip value="2409:40f4:12c:7590:4484:3bfa:5a3b:f698"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:f5b7:dd14:2574:e224%wireless_32768">
+            <ip value="fe80:0:0:0:f5b7:dd14:2574:e224%wireless_32768"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="loopback_0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="kubernetes.docker.internal">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter-WFP Native MAC Layer LightWeight Filter-0000"
+        enabled="false" isLoopBack="false" name="wireless_0">
+        <!--****** LG ADDRESSES ******-->
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>
