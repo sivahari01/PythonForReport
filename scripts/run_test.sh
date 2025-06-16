@@ -1,0 +1,3 @@
+wget  -O Dynatrace-OneAgent-Linux-1.313.54.20250607-101638.sh "https://vtm03119.live.dynatrace.com/api/v1/deployment/installer/agent/unix/default/latest?arch=x86" --header="Authorization: Api-Token dt0c01.ZRSDCQTEZOEWOGL4SGUPQ2Z4.VNR3MDQ3ZXIFGYNHGO43TZ4VVB2HV3NP7ZWLCDE7KCBCAG2KMZNQIPNQ3KSWKBXK"
+wget https://ca.dynatrace.com/dt-root.cert.pem ; ( echo 'Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="--SIGNED-INSTALLER"'; echo ; echo ; echo '----SIGNED-INSTALLER' ; cat Dynatrace-OneAgent-Linux-1.313.54.20250607-101638.sh ) | openssl cms -verify -CAfile dt-root.cert.pem > /dev/null
+/bin/sh Dynatrace-OneAgent-Linux-1.313.54.20250607-101638.sh --set-monitoring-mode=fullstack --set-app-log-content-access=true
