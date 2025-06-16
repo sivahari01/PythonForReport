@@ -1,0 +1,20 @@
+name: Run Shell Script in GitHub Actions
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  run-shell-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Make shell script executable
+      run: chmod +x scripts/run_test.sh
+
+    - name: Run shell script
+      run: ./scripts/run_test.sh
